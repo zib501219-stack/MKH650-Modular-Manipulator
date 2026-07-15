@@ -12,3 +12,11 @@
 - 检修平台、终端箱与本地急停
 
 Files include editable source, STEP, GLB preview, multi-view verification, calculations, BOM and process plan. Dynamic performance and structural stress are design calculations until checked in the intended solver/prototype.
+
+## 二维工程图 / 2D engineering drawings
+
+- `drawings/总装图_Overall_Assembly.*`：A2 总装图，直接由详细 STEP 机械手生成三视图、明细栏与装配技术要求。
+- `drawings/大臂侧板_Upper_Arm_Side_Plate.*`、`基础法兰_Foundation_Flange.*`、`重载夹指_Heavy_Gripper_Finger.*`：A3 关键零件图。
+- `drawings/二维工程图册_2D_Engineering_Drawings.pdf`：四页合订图册。
+
+标注采用中国大陆简体中文与 GB/T 常用机械制图术语，英文为辅助说明；每张图同时提供 DXF、PDF、PNG 和可重生成 Python 源文件。
