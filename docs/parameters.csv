@@ -1,0 +1,11 @@
+parameter,value,unit,status
+rated_payload,20,kg,report/resume baseline
+upper_arm_length,520,mm,assumed dimension chain
+forearm_length,480,mm,assumed dimension chain
+tool_offset,180,mm,assumed dimension chain
+maximum_radius,1180,mm,calculated
+preliminary_J2_design_torque,1552,Nm,calculated
+gripper_design_force,1770,N,calculated baseline
+model_bounding_box,1886.2x744.8x916.6,mm,verified
+step_faces,1047,count,verified
+step_edges,1653,count,verified
