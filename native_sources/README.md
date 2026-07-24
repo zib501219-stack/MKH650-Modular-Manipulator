@@ -27,3 +27,9 @@ NX note: the STEP files can be opened and saved as NX `.prt`. Native NX batch fe
 - editable CadQuery source used to regenerate the STEP files.
 
 The original `.SLDPRT` files are retained as native sketch/extrusion examples. The enhanced STEP files are the more detailed geometry baseline.
+
+## Engineering package
+
+`engineering_package/` adds controlled part numbers `MK-001` to `MK-004`, BOM, four DXF drawings, four A3 PDF sheets, an exploded reference assembly STEP, placement data, a reviewed assembly snapshot and a validation note.
+
+The reference assembly is an exploded key-part review layout. Use the repository's main detailed manipulator assembly for system-level arrangement and load-path context.
