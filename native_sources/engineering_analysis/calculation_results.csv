@@ -1,0 +1,7 @@
+﻿check,result,unit,criterion,status
+minimum_torsion_shaft_diameter,54.07094263766616,mm,<=70 mm selected,PASS
+selected_shaft_torsional_shear,23.044522139113383,MPa,<=50,PASS
+shaft_preliminary_safety_factor,2.169713031937216,-,>=2.0,PASS
+foundation_bolt_tangential_force,1492.3076923076922,N/bolt,well below M16 capacity,PASS_PRELIMINARY
+required_total_grip_normal_force,1765.8000000000002,N,<=1770 N baseline,PASS
+available_grip_design_force,1770,N,>=required,PASS

@@ -33,3 +33,7 @@ The original `.SLDPRT` files are retained as native sketch/extrusion examples. T
 `engineering_package/` adds controlled part numbers `MK-001` to `MK-004`, BOM, four DXF drawings, four A3 PDF sheets, an exploded reference assembly STEP, placement data, a reviewed assembly snapshot and a validation note.
 
 The reference assembly is an exploded key-part review layout. Use the repository's main detailed manipulator assembly for system-level arrangement and load-path context.
+
+## Engineering analysis
+
+`engineering_analysis/` adds traceable preliminary checks for the 1552 N.m J2 torque, 70 mm output shaft, foundation-bolt load distribution and 1770 N gripper force. It also records shaft, bearing, pilot and dowel fit recommendations plus a verification matrix separating calculations from unrun FEA and prototype tests.
