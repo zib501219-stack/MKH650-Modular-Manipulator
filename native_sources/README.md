@@ -41,3 +41,15 @@ The reference assembly is an exploded key-part review layout. Use the repository
 ## Motion and pose-load validation
 
 `motion_validation/` contains 4,453 sampled J2/J3 poses, a workspace/load map, singularity flags and pose-by-pose J2 torque utilization. The assumed joint ranges are recorded in the report; the horizontal extended posture reaches the 1552 N.m baseline.
+
+## Solid overlap screening
+
+`collision_validation/` contains the per-solid bounding boxes and exact common-volume results from the detailed manipulator STEP. The scan found many intersecting pairs, so the detailed STEP is **not released as a collision-free manufacturing assembly**. Expected fitted interfaces and construction-geometry overlaps must be separated and resolved in a named, constrained native assembly.
+
+## Structural analysis
+
+`structural_analysis/` contains a reproducible 26-element Euler-Bernoulli beam FE check for the equivalent twin-plate upper arm under the 1552 N.m J2 design moment. The global bending check passes the preliminary stress and deflection limits. Local 3D checks remain required around the joint rings, lightening holes, bearing seats, bolts and contacts.
+
+## Native-format status
+
+`native_format_status/` records exactly which SolidWorks, STEP and DXF sources were verified, the NX `-10005` license failure, the enhanced-STEP import limitation and the steps needed to complete a named constrained assembly and 3D solver study on a licensed workstation.
