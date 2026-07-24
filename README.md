@@ -1,5 +1,7 @@
 # MKH-650 Modular Four-Axis Manipulator
 
+> 简历项目证据入口：[`resume_evidence/README.md`](resume_evidence/README.md)
+
 20 kg 额定负载、1180 mm 最大工作半径的模块化四轴工业搬运机械手。项目覆盖总体方案、关节驱动与轴承包络、重载箱式连杆、平衡机构、夹紧力、工程材料、制造装配和维护设计。
 
 ## Detailed CAD content
