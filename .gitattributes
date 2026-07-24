@@ -1,0 +1,6 @@
+*.pdf binary
+*.png binary
+*.glb binary
+*.SLDPRT binary
+*.step -text
+*.stp -text

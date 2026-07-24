@@ -1,24 +1,45 @@
-# MKH-650 Modular Four-Axis Manipulator
+# MKH650 模块化四轴搬运机械手
 
-> 简历项目证据入口：[`resume_evidence/README.md`](resume_evidence/README.md)
+20 kg额定负载、1180 mm最大工作半径的模块化四轴工业搬运机械手。本项目覆盖总体方案、关节传动、轴承与法兰接口、重载箱式连杆、夹紧力、制造装配和维护设计。
 
-20 kg 额定负载、1180 mm 最大工作半径的模块化四轴工业搬运机械手。项目覆盖总体方案、关节驱动与轴承包络、重载箱式连杆、平衡机构、夹紧力、工程材料、制造装配和维护设计。
+![机械手总体模型](validation/mkh650_iso_20260715T161141Z.png)
 
-## Detailed CAD content
+## 项目内容
 
-- 16 点基础锚固、J1 回转支承和大型肩部塔架
-- J2/J3 复合载荷关节、减速器/轴承/中空轴包络及 12 点法兰连接
-- 双侧板箱式大臂/小臂、七道内部筋板、检修环和服务盖板
-- 平衡连杆/气弹簧、双段拖链、集中润滑接口
-- J4 腕部、重载平行夹爪、可更换锯齿夹持垫
-- 检修平台、终端箱与本地急停
+- 16点基础锚固、J1回转支承和肩部塔架
+- J2/J3减速器、轴承、中空轴和12点法兰接口
+- 双侧板箱式大臂/小臂、横向筋板和检修结构
+- 平衡机构、双段拖链和集中润滑接口
+- J4腕部、重载平行夹爪及可更换夹持块
+- 参数化整机、关键零件、工程图、BOM和制造计划
 
-Files include editable source, STEP, GLB preview, multi-view verification, calculations, BOM and process plan. Dynamic performance and structural stress are design calculations until checked in the intended solver/prototype.
+## 核心结果
 
-## 二维工程图 / 2D engineering drawings
+| 项目 | 结果 |
+|---|---:|
+| 额定负载 | 20 kg |
+| 最大工作半径 | 1180 mm |
+| J2设计扭矩 | 1552 N·m |
+| 姿态/载荷采样 | 4,453个姿态 |
+| 大臂简化梁最大应力 | 19.24 MPa |
+| 大臂简化梁最大挠度 | 0.153 mm |
 
-- `drawings/总装图_Overall_Assembly.*`：A2 总装图，直接由详细 STEP 机械手生成三视图、明细栏与装配技术要求。
-- `drawings/大臂侧板_Upper_Arm_Side_Plate.*`、`基础法兰_Foundation_Flange.*`、`重载夹指_Heavy_Gripper_Finger.*`：A3 关键零件图。
-- `drawings/二维工程图册_2D_Engineering_Drawings.pdf`：四页合订图册。
+![工作空间与载荷分布](native_sources/motion_validation/workspace_load_map.png)
 
-标注采用中国大陆简体中文与 GB/T 常用机械制图术语，英文为辅助说明；每张图同时提供 DXF、PDF、PNG 和可重生成 Python 源文件。
+## 可编辑交付物
+
+- [详细参数化模型](models/mkh650_manipulator.py)及[整机STEP](models/mkh650_manipulator.step)
+- `native_sources/solidworks/`：4个真实 SolidWorks 2023 `.SLDPRT`
+- `native_sources/enhanced_key_parts/`：增强基础法兰、侧板、输出法兰和夹指
+- `drawings/`：总装图及关键零件 DXF、PDF、PNG
+- `native_sources/engineering_package/`：受控零件号、BOM、A3图纸和爆炸参考装配
+- `native_sources/motion_validation/`：姿态、工作空间和J2载荷验证
+- [工程项目书](MKH650-Modular-Manipulator_Engineering_Project_Book.pdf)
+
+![大臂工程图](drawings/大臂侧板_Upper_Arm_Side_Plate.png)
+
+## 验证边界
+
+仓库能够证明总体结构、轴系方案、参数化模型、关键工程图、BOM和初步强度逻辑。结构结果是整体梁有限元初筛，不代表孔边、焊缝、轴承座和螺栓连接的三维实体结果。当前详细 STEP 仍有需要在原生装配中分类处理的实体交叠，动态性能、额定寿命和实际搬运节拍也需要后续求解或样机验证。
+
+简历证据入口见 [`resume_evidence/README.md`](resume_evidence/README.md)，原生格式状态见 [`native_sources/native_format_status/`](native_sources/native_format_status/)。

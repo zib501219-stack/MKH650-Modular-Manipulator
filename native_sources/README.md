@@ -46,6 +46,8 @@ The reference assembly is an exploded key-part review layout. Use the repository
 
 `collision_validation/` contains the per-solid bounding boxes and exact common-volume results from the detailed manipulator STEP. The scan found many intersecting pairs, so the detailed STEP is **not released as a collision-free manufacturing assembly**. Expected fitted interfaces and construction-geometry overlaps must be separated and resolved in a named, constrained native assembly.
 
+`overlap_classification_worklist.csv` adds P1/P2/P3 priorities, inferred mechanism zones, likely geometry categories, required actions and an open/closed review field. These are screening inferences; final acceptance still requires named components and section-view review.
+
 ## Structural analysis
 
 `structural_analysis/` contains a reproducible 26-element Euler-Bernoulli beam FE check for the equivalent twin-plate upper arm under the 1552 N.m J2 design moment. The global bending check passes the preliminary stress and deflection limits. Local 3D checks remain required around the joint rings, lightening holes, bearing seats, bolts and contacts.
