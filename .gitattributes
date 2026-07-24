@@ -2,5 +2,5 @@
 *.png binary
 *.glb binary
 *.SLDPRT binary
-*.step -text
-*.stp -text
+*.step binary
+*.stp binary
