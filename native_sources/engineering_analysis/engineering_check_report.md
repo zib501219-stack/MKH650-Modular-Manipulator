@@ -2,7 +2,7 @@
 
 ## Conclusion
 
-For the 1552 N.m preliminary J2 torque, a 70 mm shaft has simplified torsional shear of 23.0 MPa. Against a preliminary 50 MPa allowable value, the torsional safety factor is 2.17; the theoretical minimum diameter is 54.1 mm. The 70 mm size is therefore retained as a portfolio baseline, subject to combined bending, fatigue and key/spline checks.
+For the 1552 N.m preliminary J2 torque, a 90 mm shaft has simplified torsional shear of 10.8 MPa. Against a preliminary 50 MPa allowable value, the torsional safety factor is 4.61; the theoretical minimum diameter is 54.1 mm. The 90 mm size is retained to match the repository's earlier shaft baseline, subject to combined bending, fatigue and key/spline checks.
 
 Distributing torque over eight bolts on a 130 mm radius gives approximately 1492 N tangential force per bolt before preload/friction effects. This is small relative to a typical M16 high-strength bolt capacity, but the real base design is governed by preload, overturning moment, plate bending and foundation stiffness.
 

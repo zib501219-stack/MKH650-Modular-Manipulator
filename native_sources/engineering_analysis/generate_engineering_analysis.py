@@ -30,7 +30,7 @@ def four_axis():
     folder = OUT / "01_4axis_robot"
     folder.mkdir(parents=True, exist_ok=True)
     torque = 47.7
-    selected_d = 25
+    selected_d = 30
     tau = torsional_shear_mpa(torque, selected_d)
     d_min = min_shaft_diameter_mm(torque, 40)
     shaft_sf = 40 / tau
@@ -56,7 +56,7 @@ def four_axis():
         ["selected_shaft_torsional_shear",tau,"MPa","<=40", "PASS"],
         ["shaft_preliminary_safety_factor",shaft_sf,"-",
          ">=2.0","PASS"],
-        ["estimated_bearing_radial_reaction",bearing_radial,"N","<14000 N catalog dynamic rating reference","PASS_PRELIMINARY"],
+        ["estimated_bearing_radial_reaction",bearing_radial,"N","<19500 N catalog dynamic rating reference","PASS_PRELIMINARY"],
         ["base_bolt_tension_from_moment",bolt_tension,"N/bolt","well below M12 proof capacity","PASS_PRELIMINARY"],
         ["required_grip_normal_force",grip_required,"N","<=60 N design force","PASS"],
         ["available_grip_force",grip_available,"N",">=required","PASS"],
@@ -64,8 +64,8 @@ def four_axis():
     write_csv(folder / "calculation_results.csv",
               ["check","result","unit","criterion","status"], rows)
     fits = [
-        ["J2/J3 shaft bearing seat","25 h6","bearing inner ring, rotating load","grinding recommended"],
-        ["bearing housing bore","47 H7","6005 bearing outer ring","transition fit review after housing material selection"],
+        ["J2 shaft bearing seat","30 h6","bearing inner ring, rotating load","6006-size envelope; grinding recommended"],
+        ["bearing housing bore","55 H7","6006 bearing outer ring","transition fit review after housing material selection"],
         ["arm pivot pin","20 g6","removable precision pin","pair with 20 H7 hole"],
         ["arm pivot hole","20 H7","reamed hole","do not use laser-cut hole as final bearing datum"],
         ["base locating register","124 H7 / 124 g6","removable concentric location","verify coating allowance"],
@@ -77,9 +77,9 @@ def four_axis():
 
 ## Conclusion
 
-The 25 mm preliminary joint shaft passes the simplified torsion check for the 47.7 N.m J2 design torque. Calculated torsional shear is {tau:.1f} MPa against a conservative 40 MPa allowable value, giving a preliminary safety factor of {shaft_sf:.2f}. The theoretical minimum diameter is {d_min:.1f} mm; 25 mm is retained to provide room for keyways, shoulders and stiffness.
+The 30 mm preliminary J2 joint shaft passes the simplified torsion check for the 47.7 N.m J2 design torque. Calculated torsional shear is {tau:.1f} MPa against a conservative 40 MPa allowable value, giving a preliminary safety factor of {shaft_sf:.2f}. The theoretical minimum diameter is {d_min:.1f} mm; 30 mm is retained to match the repository's earlier shaft baseline and provide room for keyways, shoulders and stiffness.
 
-The estimated radial reaction across a 60 mm bearing span is {bearing_radial:.0f} N. A paired 6005-size bearing arrangement is a reasonable envelope for portfolio design, but final life must use the selected manufacturer's dynamic rating, speed spectrum and equivalent-load calculation.
+The estimated radial reaction across a 60 mm bearing span is {bearing_radial:.0f} N. A paired 6006-size bearing arrangement is a reasonable envelope for portfolio design, but final life must use the selected manufacturer's dynamic rating, speed spectrum and equivalent-load calculation.
 
 The 60 N gripper baseline exceeds the {grip_required:.1f} N normal-force estimate for a 0.5 kg object at friction coefficient 0.3 and safety factor 3.
 
@@ -168,7 +168,7 @@ def mkh650():
     folder = OUT / "03_mkh650"
     folder.mkdir(parents=True, exist_ok=True)
     torque = 1552
-    shaft_d = 70
+    shaft_d = 90
     tau = torsional_shear_mpa(torque, shaft_d)
     d_min = min_shaft_diameter_mm(torque, 50)
     shaft_sf = 50 / tau
@@ -187,7 +187,7 @@ def mkh650():
         ["grip_safety_factor",2.25,"-","assumed","vertical holding"],
     ])
     rows = [
-        ["minimum_torsion_shaft_diameter",d_min,"mm","<=70 mm selected","PASS"],
+        ["minimum_torsion_shaft_diameter",d_min,"mm","<=90 mm selected","PASS"],
         ["selected_shaft_torsional_shear",tau,"MPa","<=50","PASS"],
         ["shaft_preliminary_safety_factor",shaft_sf,"-",">=2.0","PASS"],
         ["foundation_bolt_tangential_force",bolt_force,"N/bolt","well below M16 capacity","PASS_PRELIMINARY"],
@@ -197,7 +197,7 @@ def mkh650():
     write_csv(folder / "calculation_results.csv",
               ["check","result","unit","criterion","status"], rows)
     fits = [
-        ["joint output shaft bearing seat","70 k6","inner ring with significant rotating load","final fit depends on bearing class and temperature"],
+        ["joint output shaft bearing seat","90 k6","inner ring with significant rotating load","matches repository baseline; final fit depends on bearing class and temperature"],
         ["joint housing bearing bore","bearing OD H7","outer ring location","check housing wall deformation"],
         ["output flange pilot","Ø120 H7/g6 preliminary","removable concentric location","verify ISO 9409 interface if used"],
         ["foundation locating pilot","Ø120 H7/g6","base concentric location","do not rely only on anchor-bolt clearance"],
@@ -210,7 +210,7 @@ def mkh650():
 
 ## Conclusion
 
-For the 1552 N.m preliminary J2 torque, a 70 mm shaft has simplified torsional shear of {tau:.1f} MPa. Against a preliminary 50 MPa allowable value, the torsional safety factor is {shaft_sf:.2f}; the theoretical minimum diameter is {d_min:.1f} mm. The 70 mm size is therefore retained as a portfolio baseline, subject to combined bending, fatigue and key/spline checks.
+For the 1552 N.m preliminary J2 torque, a 90 mm shaft has simplified torsional shear of {tau:.1f} MPa. Against a preliminary 50 MPa allowable value, the torsional safety factor is {shaft_sf:.2f}; the theoretical minimum diameter is {d_min:.1f} mm. The 90 mm size is retained to match the repository's earlier shaft baseline, subject to combined bending, fatigue and key/spline checks.
 
 Distributing torque over eight bolts on a 130 mm radius gives approximately {bolt_force:.0f} N tangential force per bolt before preload/friction effects. This is small relative to a typical M16 high-strength bolt capacity, but the real base design is governed by preload, overturning moment, plate bending and foundation stiffness.
 

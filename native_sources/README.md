@@ -36,4 +36,8 @@ The reference assembly is an exploded key-part review layout. Use the repository
 
 ## Engineering analysis
 
-`engineering_analysis/` adds traceable preliminary checks for the 1552 N.m J2 torque, 70 mm output shaft, foundation-bolt load distribution and 1770 N gripper force. It also records shaft, bearing, pilot and dowel fit recommendations plus a verification matrix separating calculations from unrun FEA and prototype tests.
+`engineering_analysis/` adds traceable preliminary checks for the 1552 N.m J2 torque, 90 mm output shaft, foundation-bolt load distribution and 1770 N gripper force. It also records shaft, bearing, pilot and dowel fit recommendations plus a verification matrix separating calculations from unrun FEA and prototype tests.
+
+## Motion and pose-load validation
+
+`motion_validation/` contains 4,453 sampled J2/J3 poses, a workspace/load map, singularity flags and pose-by-pose J2 torque utilization. The assumed joint ranges are recorded in the report; the horizontal extended posture reaches the 1552 N.m baseline.
