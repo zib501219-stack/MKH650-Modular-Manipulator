@@ -1,0 +1,5 @@
+﻿item,part_no,part_name,qty,material,overall_mm,note,step,dxf,pdf
+1,MK-005,j2_hollow_output_shaft,1,42CrMo,111.6x111.6x235.2,"90 mm nominal hollow shaft, 52 mm cable bore",step/MK-005_j2_hollow_output_shaft.step,dxf/MK-005_j2_hollow_output_shaft.dxf,pdf/MK-005_j2_hollow_output_shaft.pdf
+2,MK-006,j2_bearing_end_cover,1,Q355B,270x270x31.7,12 x M12 clearance on PCD 220,step/MK-006_j2_bearing_end_cover.step,dxf/MK-006_j2_bearing_end_cover.dxf,pdf/MK-006_j2_bearing_end_cover.pdf
+3,MK-007,shoulder_tower_gusset,2,Q355B,340x210x18,Triangular tower gusset with 42 mm relief,step/MK-007_shoulder_tower_gusset.step,dxf/MK-007_shoulder_tower_gusset.dxf,pdf/MK-007_shoulder_tower_gusset.pdf
+4,MK-008,iso9409_tool_flange,1,42CrMo,144x144x37.0,8 x M10 clearance on PCD 110,step/MK-008_iso9409_tool_flange.step,dxf/MK-008_iso9409_tool_flange.dxf,pdf/MK-008_iso9409_tool_flange.pdf

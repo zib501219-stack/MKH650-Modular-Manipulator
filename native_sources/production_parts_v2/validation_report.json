@@ -1,0 +1,66 @@
+[
+  {
+    "part_no": "MK-005",
+    "step": "native_sources\\production_parts_v2\\step\\MK-005_j2_hollow_output_shaft.step",
+    "solids": 1,
+    "bbox_mm": [
+      111.6,
+      111.6,
+      235.2
+    ],
+    "expected_bbox_mm": [
+      111.6,
+      111.6,
+      235.20000000000002
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-006",
+    "step": "native_sources\\production_parts_v2\\step\\MK-006_j2_bearing_end_cover.step",
+    "solids": 1,
+    "bbox_mm": [
+      270.0,
+      270.0,
+      31.68
+    ],
+    "expected_bbox_mm": [
+      270,
+      270,
+      31.68
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-007",
+    "step": "native_sources\\production_parts_v2\\step\\MK-007_shoulder_tower_gusset.step",
+    "solids": 1,
+    "bbox_mm": [
+      340.0,
+      210.0,
+      18.0
+    ],
+    "expected_bbox_mm": [
+      340,
+      210,
+      18
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-008",
+    "step": "native_sources\\production_parts_v2\\step\\MK-008_iso9409_tool_flange.step",
+    "solids": 1,
+    "bbox_mm": [
+      144.0,
+      144.0,
+      36.96
+    ],
+    "expected_bbox_mm": [
+      144,
+      144,
+      36.96
+    ],
+    "passed": true
+  }
+]

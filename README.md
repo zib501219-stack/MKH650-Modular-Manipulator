@@ -31,6 +31,7 @@
 - [详细参数化模型](models/mkh650_manipulator.py)及[整机STEP](models/mkh650_manipulator.step)
 - `native_sources/solidworks/`：4个真实 SolidWorks 2023 `.SLDPRT`
 - `native_sources/enhanced_key_parts/`：增强基础法兰、侧板、输出法兰和夹指
+- `native_sources/production_parts_v2/`：J2中空轴、轴承端盖、肩部加强板和ISO 9409工具法兰
 - `drawings/`：总装图及关键零件 DXF、PDF、PNG
 - `native_sources/engineering_package/`：受控零件号、BOM、A3图纸和爆炸参考装配
 - `native_sources/motion_validation/`：姿态、工作空间和J2载荷验证

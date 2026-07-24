@@ -8,7 +8,7 @@ REPOS = {
     "AI-Vision-4Axis-Robot-Arm": {
         "zones": [
             ("worktable/frame", lambda x, y, z: z < 850),
-            ("robot base/J1", lambda x, y, z: z < 1100 and abs(x) < 260 and abs(y) < 260),
+            ("robot base/J1", lambda x, y, z: z < 1100 and abs(x) < 400 and abs(y) < 300),
             ("arm/joints", lambda x, y, z: z >= 1050 and abs(x) < 650),
             ("vision/safety", lambda x, y, z: True),
         ]

@@ -48,6 +48,8 @@ The reference assembly is an exploded key-part review layout. Use the repository
 
 `overlap_classification_worklist.csv` adds P1/P2/P3 priorities, inferred mechanism zones, likely geometry categories, required actions and an open/closed review field. These are screening inferences; final acceptance still requires named components and section-view review.
 
+`solid_component_map.csv` now maps all 248 STEP solids back to their parametric-source component names. The order was accepted only after all six bounding-box coordinates matched the exported STEP within 0.001 mm.
+
 ## Structural analysis
 
 `structural_analysis/` contains a reproducible 26-element Euler-Bernoulli beam FE check for the equivalent twin-plate upper arm under the 1552 N.m J2 design moment. The global bending check passes the preliminary stress and deflection limits. Local 3D checks remain required around the joint rings, lightening holes, bearing seats, bolts and contacts.
@@ -55,3 +57,7 @@ The reference assembly is an exploded key-part review layout. Use the repository
 ## Native-format status
 
 `native_format_status/` records exactly which SolidWorks, STEP and DXF sources were verified, the NX `-10005` license failure, the enhanced-STEP import limitation and the steps needed to complete a named constrained assembly and 3D solver study on a licensed workstation.
+
+## Production parts V2
+
+`production_parts_v2/` adds controlled parts MK-005 to MK-008: J2 hollow output shaft, J2 bearing end cover, shoulder-tower gusset and ISO 9409 tool flange. Every part has a single-solid STEP, editable millimetre DXF, A3 PDF, reviewed isometric snapshot, BOM entry and reproducible generator.
