@@ -1,0 +1,66 @@
+[
+  {
+    "part_no": "MK-009",
+    "step": "native_sources\\production_parts_v3\\step\\MK-009_j2_motor_adapter_flange.step",
+    "solids": 1,
+    "bbox_mm": [
+      230.0,
+      230.0,
+      39.6
+    ],
+    "expected_bbox_mm": [
+      230,
+      230,
+      39.6
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-010",
+    "step": "native_sources\\production_parts_v3\\step\\MK-010_balance_link_pivot_pin.step",
+    "solids": 1,
+    "bbox_mm": [
+      64.48,
+      64.48,
+      212.8
+    ],
+    "expected_bbox_mm": [
+      64.48,
+      64.48,
+      212.8
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-011",
+    "step": "native_sources\\production_parts_v3\\step\\MK-011_upper_arm_service_cover.step",
+    "solids": 1,
+    "bbox_mm": [
+      420.0,
+      150.0,
+      8.0
+    ],
+    "expected_bbox_mm": [
+      420,
+      150,
+      8
+    ],
+    "passed": true
+  },
+  {
+    "part_no": "MK-012",
+    "step": "native_sources\\production_parts_v3\\step\\MK-012_service_chain_mount_bracket.step",
+    "solids": 1,
+    "bbox_mm": [
+      150.0,
+      90.0,
+      120.0
+    ],
+    "expected_bbox_mm": [
+      150,
+      90,
+      120
+    ],
+    "passed": true
+  }
+]

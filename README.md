@@ -32,6 +32,7 @@
 - `native_sources/solidworks/`：4个真实 SolidWorks 2023 `.SLDPRT`
 - `native_sources/enhanced_key_parts/`：增强基础法兰、侧板、输出法兰和夹指
 - `native_sources/production_parts_v2/`：J2中空轴、轴承端盖、肩部加强板和ISO 9409工具法兰
+- `native_sources/production_parts_v3/`：J2电机转接法兰、平衡轴销、检修盖和拖链安装架
 - `drawings/`：总装图及关键零件 DXF、PDF、PNG
 - `native_sources/engineering_package/`：受控零件号、BOM、A3图纸和爆炸参考装配
 - `native_sources/motion_validation/`：姿态、工作空间和J2载荷验证
@@ -44,3 +45,5 @@
 仓库能够证明总体结构、轴系方案、参数化模型、关键工程图、BOM和初步强度逻辑。结构结果是整体梁有限元初筛，不代表孔边、焊缝、轴承座和螺栓连接的三维实体结果。当前详细 STEP 仍有需要在原生装配中分类处理的实体交叠，动态性能、额定寿命和实际搬运节拍也需要后续求解或样机验证。
 
 简历证据入口见 [`resume_evidence/README.md`](resume_evidence/README.md)，原生格式状态见 [`native_sources/native_format_status/`](native_sources/native_format_status/)。
+
+采购询价接口和动态/寿命复核项见 [`docs/procurement_interface_freeze.csv`](docs/procurement_interface_freeze.csv)。
