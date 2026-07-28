@@ -1,6 +1,7 @@
-*.pdf binary
-*.png binary
-*.glb binary
 *.SLDPRT binary
-*.step binary
-*.stp binary
+*.SLDASM binary
+*.SLDDRW binary
+*.STEP binary
+*.PDF binary
+*.PNG binary
+*.glb binary

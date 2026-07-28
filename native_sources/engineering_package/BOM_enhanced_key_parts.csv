@@ -1,5 +1,0 @@
-﻿item,part_no,part_name,qty,material,overall_size_mm,source_step,drawing_dxf,drawing_pdf
-1,MK-001,foundation_flange,1,Q355B,360x360x48,step/foundation_flange_enhanced.step,drawings/MK-001_foundation_flange.dxf,drawings/MK-001_foundation_flange.pdf
-2,MK-002,upper_arm_side_plate,2,Q355B,520x110x25,step/upper_arm_side_plate_enhanced.step,drawings/MK-002_upper_arm_side_plate.dxf,drawings/MK-002_upper_arm_side_plate.pdf
-3,MK-003,joint_output_flange,1,42CrMo,220x220x54,step/joint_output_flange_enhanced.step,drawings/MK-003_joint_output_flange.dxf,drawings/MK-003_joint_output_flange.pdf
-4,MK-004,heavy_gripper_finger,2,42CrMo,180x42x52,step/heavy_gripper_finger_enhanced.step,drawings/MK-004_heavy_gripper_finger.dxf,drawings/MK-004_heavy_gripper_finger.pdf

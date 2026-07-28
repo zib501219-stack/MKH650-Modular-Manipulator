@@ -1,0 +1,967 @@
+{
+  "project": "03_MKH650_modular_manipulator",
+  "total": 107,
+  "passed": 107,
+  "failed": 0,
+  "solidworks_checks": 29,
+  "secondary_checks": 78,
+  "results": [
+    {
+      "path": "Drawings\\MKH-000_main_assembly.SLDDRW",
+      "relative": "Drawings\\MKH-000_main_assembly.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 310848,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-001_foundation_flange.SLDDRW",
+      "relative": "Drawings\\MKH-001_foundation_flange.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 111649,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-002_base_column.SLDDRW",
+      "relative": "Drawings\\MKH-002_base_column.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 95573,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-004_shoulder_frame.SLDDRW",
+      "relative": "Drawings\\MKH-004_shoulder_frame.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 96526,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-005_j2_output_shaft.SLDDRW",
+      "relative": "Drawings\\MKH-005_j2_output_shaft.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 91832,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-006_upper_arm_link.SLDDRW",
+      "relative": "Drawings\\MKH-006_upper_arm_link.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 98876,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-008_forearm_link.SLDDRW",
+      "relative": "Drawings\\MKH-008_forearm_link.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 98230,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-011_wrist_flange.SLDDRW",
+      "relative": "Drawings\\MKH-011_wrist_flange.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 108947,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-012_gripper_body.SLDDRW",
+      "relative": "Drawings\\MKH-012_gripper_body.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 95128,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-013_heavy_finger.SLDDRW",
+      "relative": "Drawings\\MKH-013_heavy_finger.SLDDRW",
+      "kind": "native",
+      "doc_type": 3,
+      "bytes": 89297,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\assemblies\\MKH-000_main_assembly.SLDASM",
+      "relative": "SolidWorks\\assemblies\\MKH-000_main_assembly.SLDASM",
+      "kind": "native",
+      "doc_type": 2,
+      "bytes": 212730,
+      "errors": 0,
+      "warnings": 32,
+      "opened": true,
+      "component_count": 24,
+      "missing_references": [],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\assemblies\\MKH-100_base_module.SLDASM",
+      "relative": "SolidWorks\\assemblies\\MKH-100_base_module.SLDASM",
+      "kind": "native",
+      "doc_type": 2,
+      "bytes": 127763,
+      "errors": 0,
+      "warnings": 32,
+      "opened": true,
+      "component_count": 6,
+      "missing_references": [],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\assemblies\\MKH-200_arm_module.SLDASM",
+      "relative": "SolidWorks\\assemblies\\MKH-200_arm_module.SLDASM",
+      "kind": "native",
+      "doc_type": 2,
+      "bytes": 134359,
+      "errors": 0,
+      "warnings": 32,
+      "opened": true,
+      "component_count": 10,
+      "missing_references": [],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\assemblies\\MKH-300_gripper_module.SLDASM",
+      "relative": "SolidWorks\\assemblies\\MKH-300_gripper_module.SLDASM",
+      "kind": "native",
+      "doc_type": 2,
+      "bytes": 108004,
+      "errors": 0,
+      "warnings": 32,
+      "opened": true,
+      "component_count": 5,
+      "missing_references": [],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-001_foundation_flange.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-001_foundation_flange.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 112116,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Flange_Profile",
+        "01_Flange_Extrude",
+        "02_Hub_Profile",
+        "02_Locating_Hub"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-002_base_column.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-002_base_column.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 85477,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Shaft_Profile_D260",
+        "01_Shaft_Step_D260",
+        "02_Shaft_Profile_D330",
+        "02_Shaft_Step_D330",
+        "03_Shaft_Profile_D190",
+        "03_Shaft_Step_D190"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-003_j1_drive.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-003_j1_drive.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 99795,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Housing_Profile",
+        "01_Housing_Block",
+        "02_Face_Boss_Profile",
+        "02_Face_Locating_Boss",
+        "03_Output_Shaft_Profile",
+        "03_Output_Shaft"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-004_shoulder_frame.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-004_shoulder_frame.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 103246,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Base_Profile",
+        "01_Base_Extrude",
+        "02_Boss_Profile",
+        "02_Reinforcement_Boss"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-005_j2_output_shaft.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-005_j2_output_shaft.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 78838,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Shaft_Profile_D138",
+        "01_Shaft_Step_D138",
+        "02_Shaft_Profile_D105",
+        "02_Shaft_Step_D105",
+        "03_Shaft_Profile_D78",
+        "03_Shaft_Step_D78"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-006_upper_arm_link.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-006_upper_arm_link.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 116318,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Link_Profile",
+        "01_Link_Plate",
+        "02_End_Boss_Profiles",
+        "02_Bearing_Seat_Bosses",
+        "03_Center_Rib_Profile",
+        "03_Center_Rib"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-007_j3_output_shaft.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-007_j3_output_shaft.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 76600,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Shaft_Profile_D118",
+        "01_Shaft_Step_D118",
+        "02_Shaft_Profile_D88",
+        "02_Shaft_Step_D88",
+        "03_Shaft_Profile_D65",
+        "03_Shaft_Step_D65"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-008_forearm_link.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-008_forearm_link.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 117720,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Link_Profile",
+        "01_Link_Plate",
+        "02_End_Boss_Profiles",
+        "02_Bearing_Seat_Bosses",
+        "03_Center_Rib_Profile",
+        "03_Center_Rib"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-009_j4_output_shaft.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-009_j4_output_shaft.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 76060,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Shaft_Profile_D92",
+        "01_Shaft_Step_D92",
+        "02_Shaft_Profile_D68",
+        "02_Shaft_Step_D68",
+        "03_Shaft_Profile_D50",
+        "03_Shaft_Step_D50"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-010_j2_j3_drive.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-010_j2_j3_drive.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 99494,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 24,
+      "named_design_features": [
+        "01_Housing_Profile",
+        "01_Housing_Block",
+        "02_Face_Boss_Profile",
+        "02_Face_Locating_Boss",
+        "03_Output_Shaft_Profile",
+        "03_Output_Shaft"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-011_wrist_flange.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-011_wrist_flange.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 112091,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Flange_Profile",
+        "01_Flange_Extrude",
+        "02_Hub_Profile",
+        "02_Locating_Hub"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-012_gripper_body.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-012_gripper_body.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 91679,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Housing_Profile",
+        "01_Housing_Block",
+        "02_Face_Boss_Profile",
+        "02_Face_Locating_Boss"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-013_heavy_finger.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-013_heavy_finger.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 90239,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Base_Profile",
+        "01_Base_Extrude",
+        "02_Boss_Profile",
+        "02_Reinforcement_Boss"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-014_gripper_cylinder.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-014_gripper_cylinder.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 81639,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Housing_Profile",
+        "01_Housing_Block",
+        "03_Output_Shaft_Profile",
+        "03_Output_Shaft"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "SolidWorks\\parts\\MKH-015_cable_bracket.SLDPRT",
+      "relative": "SolidWorks\\parts\\MKH-015_cable_bracket.SLDPRT",
+      "kind": "native",
+      "doc_type": 1,
+      "bytes": 96029,
+      "errors": 0,
+      "warnings": 0,
+      "opened": true,
+      "feature_count": 22,
+      "named_design_features": [
+        "01_Base_Profile",
+        "01_Base_Extrude",
+        "02_Boss_Profile",
+        "02_Reinforcement_Boss"
+      ],
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\assumptions.md",
+      "relative": "Documents\\assumptions.md",
+      "bytes": 294,
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\BOM.csv",
+      "relative": "Documents\\BOM.csv",
+      "bytes": 1811,
+      "rows": 16,
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\calculations.md",
+      "relative": "Documents\\calculations.md",
+      "bytes": 735,
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\manufacturing_notes.md",
+      "relative": "Documents\\manufacturing_notes.md",
+      "bytes": 675,
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\MKH-650 模块化四轴搬运机械手_设计说明书.pdf",
+      "relative": "Documents\\MKH-650 模块化四轴搬运机械手_设计说明书.pdf",
+      "bytes": 647685,
+      "pages": 8,
+      "status": "pass"
+    },
+    {
+      "path": "Documents\\parameters.csv",
+      "relative": "Documents\\parameters.csv",
+      "bytes": 3855,
+      "rows": 16,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-000_main_assembly.DXF",
+      "relative": "Drawings\\MKH-000_main_assembly.DXF",
+      "bytes": 207778,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-000_main_assembly.PDF",
+      "relative": "Drawings\\MKH-000_main_assembly.PDF",
+      "bytes": 128047,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-001_foundation_flange.DXF",
+      "relative": "Drawings\\MKH-001_foundation_flange.DXF",
+      "bytes": 69464,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-001_foundation_flange.PDF",
+      "relative": "Drawings\\MKH-001_foundation_flange.PDF",
+      "bytes": 117119,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-002_base_column.DXF",
+      "relative": "Drawings\\MKH-002_base_column.DXF",
+      "bytes": 54999,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-002_base_column.PDF",
+      "relative": "Drawings\\MKH-002_base_column.PDF",
+      "bytes": 115805,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-004_shoulder_frame.DXF",
+      "relative": "Drawings\\MKH-004_shoulder_frame.DXF",
+      "bytes": 60561,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-004_shoulder_frame.PDF",
+      "relative": "Drawings\\MKH-004_shoulder_frame.PDF",
+      "bytes": 114799,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-005_j2_output_shaft.DXF",
+      "relative": "Drawings\\MKH-005_j2_output_shaft.DXF",
+      "bytes": 54998,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-005_j2_output_shaft.PDF",
+      "relative": "Drawings\\MKH-005_j2_output_shaft.PDF",
+      "bytes": 115184,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-006_upper_arm_link.DXF",
+      "relative": "Drawings\\MKH-006_upper_arm_link.DXF",
+      "bytes": 60940,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-006_upper_arm_link.PDF",
+      "relative": "Drawings\\MKH-006_upper_arm_link.PDF",
+      "bytes": 115134,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-008_forearm_link.DXF",
+      "relative": "Drawings\\MKH-008_forearm_link.DXF",
+      "bytes": 60958,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-008_forearm_link.PDF",
+      "relative": "Drawings\\MKH-008_forearm_link.PDF",
+      "bytes": 115269,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-011_wrist_flange.DXF",
+      "relative": "Drawings\\MKH-011_wrist_flange.DXF",
+      "bytes": 69466,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-011_wrist_flange.PDF",
+      "relative": "Drawings\\MKH-011_wrist_flange.PDF",
+      "bytes": 116770,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-012_gripper_body.DXF",
+      "relative": "Drawings\\MKH-012_gripper_body.DXF",
+      "bytes": 59817,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-012_gripper_body.PDF",
+      "relative": "Drawings\\MKH-012_gripper_body.PDF",
+      "bytes": 114718,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-013_heavy_finger.DXF",
+      "relative": "Drawings\\MKH-013_heavy_finger.DXF",
+      "bytes": 56735,
+      "status": "pass"
+    },
+    {
+      "path": "Drawings\\MKH-013_heavy_finger.PDF",
+      "relative": "Drawings\\MKH-013_heavy_finger.PDF",
+      "bytes": 113249,
+      "pages": 1,
+      "status": "pass"
+    },
+    {
+      "path": "README.md",
+      "relative": "README.md",
+      "bytes": 1422,
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-000_main_assembly.png",
+      "relative": "Screenshots\\MKH-000_main_assembly.png",
+      "bytes": 121245,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-001_foundation_flange.png",
+      "relative": "Screenshots\\MKH-001_foundation_flange.png",
+      "bytes": 111132,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-002_base_column.png",
+      "relative": "Screenshots\\MKH-002_base_column.png",
+      "bytes": 96072,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-003_j1_drive.png",
+      "relative": "Screenshots\\MKH-003_j1_drive.png",
+      "bytes": 93995,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-004_shoulder_frame.png",
+      "relative": "Screenshots\\MKH-004_shoulder_frame.png",
+      "bytes": 107853,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-005_j2_output_shaft.png",
+      "relative": "Screenshots\\MKH-005_j2_output_shaft.png",
+      "bytes": 89677,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-006_upper_arm_link.png",
+      "relative": "Screenshots\\MKH-006_upper_arm_link.png",
+      "bytes": 125369,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-007_j3_output_shaft.png",
+      "relative": "Screenshots\\MKH-007_j3_output_shaft.png",
+      "bytes": 89529,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-008_forearm_link.png",
+      "relative": "Screenshots\\MKH-008_forearm_link.png",
+      "bytes": 126527,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-009_j4_output_shaft.png",
+      "relative": "Screenshots\\MKH-009_j4_output_shaft.png",
+      "bytes": 88454,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-010_j2_j3_drive.png",
+      "relative": "Screenshots\\MKH-010_j2_j3_drive.png",
+      "bytes": 94902,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-011_wrist_flange.png",
+      "relative": "Screenshots\\MKH-011_wrist_flange.png",
+      "bytes": 109300,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-012_gripper_body.png",
+      "relative": "Screenshots\\MKH-012_gripper_body.png",
+      "bytes": 99749,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-013_heavy_finger.png",
+      "relative": "Screenshots\\MKH-013_heavy_finger.png",
+      "bytes": 107052,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-014_gripper_cylinder.png",
+      "relative": "Screenshots\\MKH-014_gripper_cylinder.png",
+      "bytes": 95124,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-015_cable_bracket.png",
+      "relative": "Screenshots\\MKH-015_cable_bracket.png",
+      "bytes": 111133,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-100_base_module.png",
+      "relative": "Screenshots\\MKH-100_base_module.png",
+      "bytes": 114290,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-200_arm_module.png",
+      "relative": "Screenshots\\MKH-200_arm_module.png",
+      "bytes": 119031,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Screenshots\\MKH-300_gripper_module.png",
+      "relative": "Screenshots\\MKH-300_gripper_module.png",
+      "bytes": 109317,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Sources\\project_manifest.json",
+      "relative": "Sources\\project_manifest.json",
+      "bytes": 31806,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-1.png",
+      "relative": "Validation\\book_render\\page-1.png",
+      "bytes": 116280,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-2.png",
+      "relative": "Validation\\book_render\\page-2.png",
+      "bytes": 93173,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-3.png",
+      "relative": "Validation\\book_render\\page-3.png",
+      "bytes": 114416,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-4.png",
+      "relative": "Validation\\book_render\\page-4.png",
+      "bytes": 160267,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-5.png",
+      "relative": "Validation\\book_render\\page-5.png",
+      "bytes": 108484,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-6.png",
+      "relative": "Validation\\book_render\\page-6.png",
+      "bytes": 83122,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-7.png",
+      "relative": "Validation\\book_render\\page-7.png",
+      "bytes": 102094,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\book_render\\page-8.png",
+      "relative": "Validation\\book_render\\page-8.png",
+      "bytes": 100129,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\cad_inspect.json",
+      "relative": "Validation\\cad_inspect.json",
+      "bytes": 1757,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\generation_report.json",
+      "relative": "Validation\\generation_report.json",
+      "bytes": 31832,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\MKH_cad_snapshot_20260728T152659Z.png",
+      "relative": "Validation\\MKH_cad_snapshot_20260728T152659Z.png",
+      "bytes": 425914,
+      "image_format": "PNG",
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\open_validation_report.json",
+      "relative": "Validation\\open_validation_report.json",
+      "bytes": 50945,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\assemblies__MKH-000_main_assembly.json",
+      "relative": "Validation\\step_open_checks\\assemblies__MKH-000_main_assembly.json",
+      "bytes": 411,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\assemblies__MKH-100_base_module.json",
+      "relative": "Validation\\step_open_checks\\assemblies__MKH-100_base_module.json",
+      "bytes": 407,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\assemblies__MKH-200_arm_module.json",
+      "relative": "Validation\\step_open_checks\\assemblies__MKH-200_arm_module.json",
+      "bytes": 405,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\assemblies__MKH-300_gripper_module.json",
+      "relative": "Validation\\step_open_checks\\assemblies__MKH-300_gripper_module.json",
+      "bytes": 413,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-001_foundation_flange.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-001_foundation_flange.json",
+      "bytes": 349,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-002_base_column.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-002_base_column.json",
+      "bytes": 337,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-003_j1_drive.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-003_j1_drive.json",
+      "bytes": 330,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-004_shoulder_frame.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-004_shoulder_frame.json",
+      "bytes": 342,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-005_j2_output_shaft.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-005_j2_output_shaft.json",
+      "bytes": 345,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-006_upper_arm_link.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-006_upper_arm_link.json",
+      "bytes": 343,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-007_j3_output_shaft.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-007_j3_output_shaft.json",
+      "bytes": 345,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-008_forearm_link.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-008_forearm_link.json",
+      "bytes": 339,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-009_j4_output_shaft.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-009_j4_output_shaft.json",
+      "bytes": 345,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-010_j2_j3_drive.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-010_j2_j3_drive.json",
+      "bytes": 337,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-011_wrist_flange.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-011_wrist_flange.json",
+      "bytes": 339,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-012_gripper_body.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-012_gripper_body.json",
+      "bytes": 339,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-013_heavy_finger.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-013_heavy_finger.json",
+      "bytes": 339,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-014_gripper_cylinder.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-014_gripper_cylinder.json",
+      "bytes": 346,
+      "status": "pass"
+    },
+    {
+      "path": "Validation\\step_open_checks\\parts__MKH-015_cable_bracket.json",
+      "relative": "Validation\\step_open_checks\\parts__MKH-015_cable_bracket.json",
+      "bytes": 341,
+      "status": "pass"
+    }
+  ]
+}

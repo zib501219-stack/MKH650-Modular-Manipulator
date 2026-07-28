@@ -1,8 +1,0 @@
-{
-  "status": "failed",
-  "root": "C:\\Users\\Administrator\\Documents\\Codex\\2026-07-24\\zha\\work\\nx_native_sources\\output",
-  "projects": {},
-  "errors": [
-    "Traceback (most recent call last):\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-07-24\\zha\\work\\nx_native_sources\\generate_portfolio_nx.py\", line 412, in main\n    result = plate_with_holes(session, folder, spec)\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-07-24\\zha\\work\\nx_native_sources\\generate_portfolio_nx.py\", line 106, in plate_with_holes\n    main = block(part, (0, 0, 0), spec[\"size\"])\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-07-24\\zha\\work\\nx_native_sources\\generate_portfolio_nx.py\", line 18, in block\n    builder = part.Features.CreateBlockFeatureBuilder(NXOpen.Features.Feature.Null)\nNXOpen.NXException: \nLicense Error, license module not found. [ -10005 ]\n\n"
-  ]
-}

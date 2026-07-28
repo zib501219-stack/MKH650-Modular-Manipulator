@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "main_assembly": "SolidWorks\\assemblies\\MKH-000_main_assembly.SLDASM",
+  "main_opened": true,
+  "main_component_count": 24,
+  "main_references_exist": true,
+  "main_references_within_project": true,
+  "drawing_count": 10,
+  "drawings_opened": true,
+  "note": "Validated after regenerating assemblies and drawings inside the final delivery path."
+}

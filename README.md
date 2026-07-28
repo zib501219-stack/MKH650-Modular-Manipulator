@@ -1,49 +1,30 @@
-# MKH650 模块化四轴搬运机械手
+# MKH-650 模块化四轴搬运机械手
 
-20 kg额定负载、1180 mm最大工作半径的模块化四轴工业搬运机械手。本项目覆盖总体方案、关节传动、轴承与法兰接口、重载箱式连杆、夹紧力、制造装配和维护设计。
+本目录为按简历项目重新建立的可编辑机械设计包。关键自制件采用 SolidWorks 原生草图、拉伸、凸台等特征建模；外购电机、减速机、气缸和振动盘为接口级简化件，并在 BOM 中单独标明。
 
-![机械手总体模型](validation/mkh650_iso_20260715T161141Z.png)
+## 简历基线
 
-## 项目内容
+- 额定负载 20 kg
+- 工作半径 1180 mm
+- 四轴模块化机械手
+- 可拆装关节与端部夹爪
 
-- 16点基础锚固、J1回转支承和肩部塔架
-- J2/J3减速器、轴承、中空轴和12点法兰接口
-- 双侧板箱式大臂/小臂、横向筋板和检修结构
-- 平衡机构、双段拖链和集中润滑接口
-- J4腕部、重载平行夹爪及可更换夹持块
-- 参数化整机、关键零件、工程图、BOM和制造计划
+## 工程补全说明
 
-## 核心结果
+- 水平最大伸展按 1180 mm 控制，主臂与前臂接口围绕该尺寸布置。
+- 20 kg 是额定搬运负载的设计输入，不是本模型实机负载试验结果。
+- 重载电机、减速机、气缸为外购件简化模型，接口按可拆装模块设计。
 
-| 项目 | 结果 |
-|---|---:|
-| 额定负载 | 20 kg |
-| 最大工作半径 | 1180 mm |
-| J2设计扭矩 | 1552 N·m |
-| 姿态/载荷采样 | 4,453个姿态 |
-| 大臂简化梁最大应力 | 19.24 MPa |
-| 大臂简化梁最大挠度 | 0.153 mm |
+## 目录
 
-![工作空间与载荷分布](native_sources/motion_validation/workspace_load_map.png)
+- `SolidWorks/parts`：原生零件源文件，保留特征树。
+- `SolidWorks/assemblies`：功能子装配与总装源文件。
+- `STEP`：零件、子装配和总装交换格式。
+- `Drawings`：关键零件与总装的 SolidWorks 工程图、PDF、DXF。
+- `Screenshots`：零件、子装配和总装等轴测截图。
+- `Documents`：参数、BOM、计算说明和制造说明。
+- `Validation`：生成记录与打开验证记录。
 
-## 可编辑交付物
+## 证据边界
 
-- [详细参数化模型](models/mkh650_manipulator.py)及[整机STEP](models/mkh650_manipulator.step)
-- `native_sources/solidworks/`：4个真实 SolidWorks 2023 `.SLDPRT`
-- `native_sources/enhanced_key_parts/`：增强基础法兰、侧板、输出法兰和夹指
-- `native_sources/production_parts_v2/`：J2中空轴、轴承端盖、肩部加强板和ISO 9409工具法兰
-- `native_sources/production_parts_v3/`：J2电机转接法兰、平衡轴销、检修盖和拖链安装架
-- `drawings/`：总装图及关键零件 DXF、PDF、PNG
-- `native_sources/engineering_package/`：受控零件号、BOM、A3图纸和爆炸参考装配
-- `native_sources/motion_validation/`：姿态、工作空间和J2载荷验证
-- [工程项目书](MKH650-Modular-Manipulator_Engineering_Project_Book.pdf)
-
-![大臂工程图](drawings/大臂侧板_Upper_Arm_Side_Plate.png)
-
-## 验证边界
-
-仓库能够证明总体结构、轴系方案、参数化模型、关键工程图、BOM和初步强度逻辑。结构结果是整体梁有限元初筛，不代表孔边、焊缝、轴承座和螺栓连接的三维实体结果。当前详细 STEP 仍有需要在原生装配中分类处理的实体交叠，动态性能、额定寿命和实际搬运节拍也需要后续求解或样机验证。
-
-简历证据入口见 [`resume_evidence/README.md`](resume_evidence/README.md)，原生格式状态见 [`native_sources/native_format_status/`](native_sources/native_format_status/)。
-
-采购询价接口和动态/寿命复核项见 [`docs/procurement_interface_freeze.csv`](docs/procurement_interface_freeze.csv)。
+这是数字化结构设计和可打开性验证，不等同于实机制造、装配、节拍、精度或负载试验。文件中不会把外购简化件、估算计算或软件打开检查写成实机结果。

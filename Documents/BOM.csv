@@ -1,0 +1,16 @@
+﻿图号,名称,数量,材料/类型,建模来源,零件文件,STEP文件
+MKH-001,地脚安装法兰,1,Q235B,自制件原生建模,MKH-001_foundation_flange.SLDPRT,MKH-001_foundation_flange.STEP
+MKH-002,重载回转立柱,1,Q235B,自制件原生建模,MKH-002_base_column.SLDPRT,MKH-002_base_column.STEP
+MKH-003,J1重载电机减速机简化件,1,外购件,外购简化,MKH-003_j1_drive.SLDPRT,MKH-003_j1_drive.STEP
+MKH-004,肩部模块侧板,2,Q235B,自制件原生建模,MKH-004_shoulder_frame.SLDPRT,MKH-004_shoulder_frame.STEP
+MKH-005,J2输出阶梯轴,1,42CrMo,自制件原生建模,MKH-005_j2_output_shaft.SLDPRT,MKH-005_j2_output_shaft.STEP
+MKH-006,上臂承载侧板,2,6061-T6,自制件原生建模,MKH-006_upper_arm_link.SLDPRT,MKH-006_upper_arm_link.STEP
+MKH-007,J3输出阶梯轴,1,42CrMo,自制件原生建模,MKH-007_j3_output_shaft.SLDPRT,MKH-007_j3_output_shaft.STEP
+MKH-008,前臂承载侧板,2,6061-T6,自制件原生建模,MKH-008_forearm_link.SLDPRT,MKH-008_forearm_link.STEP
+MKH-009,J4腕部轴,1,42CrMo,自制件原生建模,MKH-009_j4_output_shaft.SLDPRT,MKH-009_j4_output_shaft.STEP
+MKH-010,J2/J3重载驱动简化件,2,外购件,外购简化,MKH-010_j2_j3_drive.SLDPRT,MKH-010_j2_j3_drive.STEP
+MKH-011,腕部模块连接法兰,1,45钢,自制件原生建模,MKH-011_wrist_flange.SLDPRT,MKH-011_wrist_flange.STEP
+MKH-012,20kg搬运夹爪本体,1,Q235B,自制件原生建模,MKH-012_gripper_body.SLDPRT,MKH-012_gripper_body.STEP
+MKH-013,重载夹爪手指,2,45钢,自制件原生建模,MKH-013_heavy_finger.SLDPRT,MKH-013_heavy_finger.STEP
+MKH-014,夹紧气缸简化件,1,外购件,外购简化,MKH-014_gripper_cylinder.SLDPRT,MKH-014_gripper_cylinder.STEP
+MKH-015,线缆拖链安装板,2,Q235B,自制件原生建模,MKH-015_cable_bracket.SLDPRT,MKH-015_cable_bracket.STEP

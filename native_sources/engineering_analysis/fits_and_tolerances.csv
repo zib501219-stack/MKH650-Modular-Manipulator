@@ -1,7 +1,0 @@
-﻿feature,recommended_fit_or_size,purpose,note
-joint output shaft bearing seat,90 k6,inner ring with significant rotating load,matches repository baseline; final fit depends on bearing class and temperature
-joint housing bearing bore,bearing OD H7,outer ring location,check housing wall deformation
-output flange pilot,Ø120 H7/g6 preliminary,removable concentric location,verify ISO 9409 interface if used
-foundation locating pilot,Ø120 H7/g6,base concentric location,do not rely only on anchor-bolt clearance
-foundation bolts,8 x M16 class 10.9 preliminary,overturning and torque transfer,preload and concrete/baseplate check required
-gripper replaceable insert,H7/m6 dowels + bolts,repeatable jaw replacement,harden insert contact teeth

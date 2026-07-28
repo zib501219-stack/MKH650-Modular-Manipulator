@@ -1,9 +1,0 @@
-﻿category,item,status,evidence_or_next_action
-geometry,enhanced STEP opens as one solid,verified,CadQuery STEP re-import solid count
-drawing,DXF units and entity structure,verified,ezdxf readback
-drawing,A3 PDF renders as one page,verified,pypdf and Poppler representative render
-assembly,enhanced key-part reference layout,verified,STEP snapshot
-native_cad,enhanced feature-history SLDPRT,open,enhanced geometry remains STEP + parametric source
-native_cad,NX native PRT,blocked,local NX batch modeling license error
-simulation,FEA stress and deformation,not_run,no solver result is claimed
-prototype,"measured accuracy, takt and payload",not_tested,requires physical prototype
