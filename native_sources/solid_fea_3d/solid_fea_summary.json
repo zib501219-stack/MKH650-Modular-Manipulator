@@ -1,0 +1,15 @@
+{
+  "solver": "linear tetrahedral FEM (SciPy sparse)",
+  "source_step": "native_sources/enhanced_key_parts/step/upper_arm_side_plate_enhanced.step",
+  "nodes": 384,
+  "tetrahedra": 1042,
+  "E_MPa": 210000.0,
+  "poisson": 0.3,
+  "total_load_N": 5000.0,
+  "constraint": "x-min end fixed",
+  "load": "x-max end, -Z",
+  "max_displacement_mm": 4.827910903974024,
+  "max_von_mises_MPa": 218.76846530155353,
+  "status": "SOLVED",
+  "scope": "digital design verification; not a substitute for prototype test or certified solver review"
+}

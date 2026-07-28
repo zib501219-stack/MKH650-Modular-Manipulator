@@ -16,3 +16,13 @@
 - `docs/procurement_interface_freeze.*`：采购询价接口、性能要求和下单前复核项
 - `resume_evidence/README.md`及`装配体复核视图_*.png`：简历证据入口
 - `MKH650-Modular-Manipulator_Engineering_Project_Book.pdf`：工程项目书
+
+## Digital acceptance closure
+
+- `validation/digital_acceptance/README.md`: final digital acceptance summary
+- `validation/digital_acceptance/acceptance_matrix.csv`: itemized completion status
+- `validation/digital_acceptance/controlled_part_drawing_register.csv`: 12-part STEP/DXF/PDF register
+- `validation/digital_acceptance/p1_digital_closure.csv`: named P1 disposition closure
+- `validation/digital_acceptance/procurement_technical_release.csv`: technical procurement release
+- `validation/digital_acceptance/controller_and_motion_test.json`: repeatable control/motion checks
+- `validation/digital_acceptance/physical_validation_plan.md`: only intentionally pending stage
