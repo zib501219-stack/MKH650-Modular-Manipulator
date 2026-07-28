@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "project": "MKH650-Modular-Manipulator",
+  "main_assembly": "MKH-000_main_assembly.SLDASM",
+  "main_modules": [
+    {
+      "component": "MKH-300_gripper_module-1",
+      "fixed": false,
+      "mate_count": 3
+    },
+    {
+      "component": "MKH-200_arm_module-1",
+      "fixed": false,
+      "mate_count": 3
+    },
+    {
+      "component": "MKH-100_base_module-1",
+      "fixed": true,
+      "mate_count": 0
+    }
+  ],
+  "subassemblies": [
+    {
+      "assembly": "MKH-100_base_module.SLDASM",
+      "status": "pass",
+      "component_count": 6,
+      "all_components_fixed": true
+    },
+    {
+      "assembly": "MKH-200_arm_module.SLDASM",
+      "status": "pass",
+      "component_count": 10,
+      "all_components_fixed": true
+    },
+    {
+      "assembly": "MKH-300_gripper_module.SLDASM",
+      "status": "pass",
+      "component_count": 5,
+      "all_components_fixed": true
+    }
+  ],
+  "joint_or_support_checks": [
+    {
+      "name": "upper_arm_left",
+      "joint_center_total_error_mm": 0.0
+    },
+    {
+      "name": "forearm_left",
+      "joint_center_total_error_mm": 0.0
+    }
+  ],
+  "validation_boundary": "Digital assembly positioning and constraint validation; not physical assembly evidence."
+}

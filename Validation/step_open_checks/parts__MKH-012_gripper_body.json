@@ -1,9 +1,9 @@
 {
   "path": "STEP\\parts\\MKH-012_gripper_body.STEP",
-  "bytes": 42768,
+  "bytes": 42757,
   "status": "pass",
   "errors": 0,
   "open_method": "SolidWorks STEP import",
   "title": "MKH-012_gripper_body.SLDPRT",
-  "seconds": 5.377
+  "seconds": 4.599
 }

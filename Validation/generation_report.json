@@ -17,8 +17,8 @@
       "native": "SolidWorks\\parts\\MKH-001_foundation_flange.SLDPRT",
       "step": "STEP\\parts\\MKH-001_foundation_flange.STEP",
       "png": "Screenshots\\MKH-001_foundation_flange.png",
-      "native_bytes": 112116,
-      "step_bytes": 65245,
+      "native_bytes": 112823,
+      "step_bytes": 65239,
       "png_bytes": 111132,
       "features": [
         "verified in original generation report"
@@ -30,8 +30,8 @@
       "native": "SolidWorks\\parts\\MKH-002_base_column.SLDPRT",
       "step": "STEP\\parts\\MKH-002_base_column.STEP",
       "png": "Screenshots\\MKH-002_base_column.png",
-      "native_bytes": 85477,
-      "step_bytes": 23339,
+      "native_bytes": 85012,
+      "step_bytes": 23336,
       "png_bytes": 96072,
       "features": [
         "verified in original generation report"
@@ -43,8 +43,8 @@
       "native": "SolidWorks\\parts\\MKH-003_j1_drive.SLDPRT",
       "step": "STEP\\parts\\MKH-003_j1_drive.STEP",
       "png": "Screenshots\\MKH-003_j1_drive.png",
-      "native_bytes": 99795,
-      "step_bytes": 74658,
+      "native_bytes": 99154,
+      "step_bytes": 74661,
       "png_bytes": 93995,
       "features": [
         "verified in original generation report"
@@ -56,7 +56,7 @@
       "native": "SolidWorks\\parts\\MKH-004_shoulder_frame.SLDPRT",
       "step": "STEP\\parts\\MKH-004_shoulder_frame.STEP",
       "png": "Screenshots\\MKH-004_shoulder_frame.png",
-      "native_bytes": 103246,
+      "native_bytes": 103230,
       "step_bytes": 52072,
       "png_bytes": 107853,
       "features": [
@@ -69,8 +69,8 @@
       "native": "SolidWorks\\parts\\MKH-005_j2_output_shaft.SLDPRT",
       "step": "STEP\\parts\\MKH-005_j2_output_shaft.STEP",
       "png": "Screenshots\\MKH-005_j2_output_shaft.png",
-      "native_bytes": 78838,
-      "step_bytes": 23362,
+      "native_bytes": 77715,
+      "step_bytes": 23359,
       "png_bytes": 89677,
       "features": [
         "verified in original generation report"
@@ -82,8 +82,8 @@
       "native": "SolidWorks\\parts\\MKH-006_upper_arm_link.SLDPRT",
       "step": "STEP\\parts\\MKH-006_upper_arm_link.STEP",
       "png": "Screenshots\\MKH-006_upper_arm_link.png",
-      "native_bytes": 116318,
-      "step_bytes": 73504,
+      "native_bytes": 116416,
+      "step_bytes": 73499,
       "png_bytes": 125369,
       "features": [
         "verified in original generation report"
@@ -95,8 +95,8 @@
       "native": "SolidWorks\\parts\\MKH-007_j3_output_shaft.SLDPRT",
       "step": "STEP\\parts\\MKH-007_j3_output_shaft.STEP",
       "png": "Screenshots\\MKH-007_j3_output_shaft.png",
-      "native_bytes": 76600,
-      "step_bytes": 23363,
+      "native_bytes": 76797,
+      "step_bytes": 23334,
       "png_bytes": 89529,
       "features": [
         "verified in original generation report"
@@ -108,8 +108,8 @@
       "native": "SolidWorks\\parts\\MKH-008_forearm_link.SLDPRT",
       "step": "STEP\\parts\\MKH-008_forearm_link.STEP",
       "png": "Screenshots\\MKH-008_forearm_link.png",
-      "native_bytes": 117720,
-      "step_bytes": 73493,
+      "native_bytes": 118655,
+      "step_bytes": 73479,
       "png_bytes": 126527,
       "features": [
         "verified in original generation report"
@@ -121,8 +121,8 @@
       "native": "SolidWorks\\parts\\MKH-009_j4_output_shaft.SLDPRT",
       "step": "STEP\\parts\\MKH-009_j4_output_shaft.STEP",
       "png": "Screenshots\\MKH-009_j4_output_shaft.png",
-      "native_bytes": 76060,
-      "step_bytes": 23365,
+      "native_bytes": 75537,
+      "step_bytes": 23345,
       "png_bytes": 88454,
       "features": [
         "verified in original generation report"
@@ -134,8 +134,8 @@
       "native": "SolidWorks\\parts\\MKH-010_j2_j3_drive.SLDPRT",
       "step": "STEP\\parts\\MKH-010_j2_j3_drive.STEP",
       "png": "Screenshots\\MKH-010_j2_j3_drive.png",
-      "native_bytes": 99494,
-      "step_bytes": 74687,
+      "native_bytes": 99727,
+      "step_bytes": 74678,
       "png_bytes": 94902,
       "features": [
         "verified in original generation report"
@@ -147,8 +147,8 @@
       "native": "SolidWorks\\parts\\MKH-011_wrist_flange.SLDPRT",
       "step": "STEP\\parts\\MKH-011_wrist_flange.STEP",
       "png": "Screenshots\\MKH-011_wrist_flange.png",
-      "native_bytes": 112091,
-      "step_bytes": 65222,
+      "native_bytes": 112230,
+      "step_bytes": 65218,
       "png_bytes": 109300,
       "features": [
         "verified in original generation report"
@@ -160,8 +160,8 @@
       "native": "SolidWorks\\parts\\MKH-012_gripper_body.SLDPRT",
       "step": "STEP\\parts\\MKH-012_gripper_body.STEP",
       "png": "Screenshots\\MKH-012_gripper_body.png",
-      "native_bytes": 91679,
-      "step_bytes": 42768,
+      "native_bytes": 91912,
+      "step_bytes": 42757,
       "png_bytes": 99749,
       "features": [
         "verified in original generation report"
@@ -173,8 +173,8 @@
       "native": "SolidWorks\\parts\\MKH-013_heavy_finger.SLDPRT",
       "step": "STEP\\parts\\MKH-013_heavy_finger.STEP",
       "png": "Screenshots\\MKH-013_heavy_finger.png",
-      "native_bytes": 90239,
-      "step_bytes": 44183,
+      "native_bytes": 90309,
+      "step_bytes": 44182,
       "png_bytes": 107052,
       "features": [
         "verified in original generation report"
@@ -186,8 +186,8 @@
       "native": "SolidWorks\\parts\\MKH-014_gripper_cylinder.SLDPRT",
       "step": "STEP\\parts\\MKH-014_gripper_cylinder.STEP",
       "png": "Screenshots\\MKH-014_gripper_cylinder.png",
-      "native_bytes": 81639,
-      "step_bytes": 42766,
+      "native_bytes": 81264,
+      "step_bytes": 42767,
       "png_bytes": 95124,
       "features": [
         "verified in original generation report"
@@ -199,8 +199,8 @@
       "native": "SolidWorks\\parts\\MKH-015_cable_bracket.SLDPRT",
       "step": "STEP\\parts\\MKH-015_cable_bracket.STEP",
       "png": "Screenshots\\MKH-015_cable_bracket.png",
-      "native_bytes": 96029,
-      "step_bytes": 64095,
+      "native_bytes": 95139,
+      "step_bytes": 64091,
       "png_bytes": 111133,
       "features": [
         "verified in original generation report"
@@ -221,9 +221,17 @@
         "shoulder_right",
         "j2_shaft"
       ],
-      "native_bytes": 127677,
-      "step_bytes": 261397,
-      "png_bytes": 114276
+      "fixed_components": [
+        "foundation",
+        "column",
+        "j1_drive",
+        "shoulder_left",
+        "shoulder_right",
+        "j2_shaft"
+      ],
+      "native_bytes": 128554,
+      "step_bytes": 261421,
+      "png_bytes": 118089
     },
     {
       "name": "MKH-200_arm_module",
@@ -242,9 +250,21 @@
         "cable_bracket_upper",
         "cable_bracket_forearm"
       ],
-      "native_bytes": 135155,
-      "step_bytes": 366489,
-      "png_bytes": 119129
+      "fixed_components": [
+        "upper_arm_left",
+        "upper_arm_right",
+        "j2_drive",
+        "j3_shaft",
+        "j3_drive",
+        "forearm_left",
+        "forearm_right",
+        "j4_shaft",
+        "cable_bracket_upper",
+        "cable_bracket_forearm"
+      ],
+      "native_bytes": 159321,
+      "step_bytes": 366511,
+      "png_bytes": 153138
     },
     {
       "name": "MKH-300_gripper_module",
@@ -258,9 +278,16 @@
         "finger_left",
         "finger_right"
       ],
-      "native_bytes": 107144,
-      "step_bytes": 214745,
-      "png_bytes": 109316
+      "fixed_components": [
+        "wrist_flange",
+        "gripper_body",
+        "gripper_cylinder",
+        "finger_left",
+        "finger_right"
+      ],
+      "native_bytes": 104400,
+      "step_bytes": 214656,
+      "png_bytes": 108042
     }
   ],
   "main_assembly": {
@@ -273,9 +300,20 @@
       "MKH-200_arm_module",
       "MKH-300_gripper_module"
     ],
-    "native_bytes": 213219,
-    "step_bytes": 861399,
-    "png_bytes": 121360
+    "fixed_components": [
+      "MKH-100_base_module"
+    ],
+    "mates": [
+      "模块定位_01_MKH-200_arm_module_01_前视基准面",
+      "模块定位_01_MKH-200_arm_module_02_上视基准面",
+      "模块定位_01_MKH-200_arm_module_03_右视基准面",
+      "模块定位_02_MKH-300_gripper_module_01_前视基准面",
+      "模块定位_02_MKH-300_gripper_module_02_上视基准面",
+      "模块定位_02_MKH-300_gripper_module_03_右视基准面"
+    ],
+    "native_bytes": 220018,
+    "step_bytes": 861844,
+    "png_bytes": 126135
   },
   "drawings": [
     {
@@ -283,8 +321,8 @@
       "slddrw": "Drawings\\MKH-001_foundation_flange.SLDDRW",
       "pdf": "Drawings\\MKH-001_foundation_flange.PDF",
       "dxf": "Drawings\\MKH-001_foundation_flange.DXF",
-      "slddrw_bytes": 112203,
-      "pdf_bytes": 117118,
+      "slddrw_bytes": 111177,
+      "pdf_bytes": 117119,
       "dxf_bytes": 69466
     },
     {
@@ -292,8 +330,8 @@
       "slddrw": "Drawings\\MKH-002_base_column.SLDDRW",
       "pdf": "Drawings\\MKH-002_base_column.PDF",
       "dxf": "Drawings\\MKH-002_base_column.DXF",
-      "slddrw_bytes": 95562,
-      "pdf_bytes": 115810,
+      "slddrw_bytes": 95557,
+      "pdf_bytes": 115804,
       "dxf_bytes": 54999
     },
     {
@@ -301,26 +339,26 @@
       "slddrw": "Drawings\\MKH-004_shoulder_frame.SLDDRW",
       "pdf": "Drawings\\MKH-004_shoulder_frame.PDF",
       "dxf": "Drawings\\MKH-004_shoulder_frame.DXF",
-      "slddrw_bytes": 95418,
-      "pdf_bytes": 114803,
-      "dxf_bytes": 60561
+      "slddrw_bytes": 95897,
+      "pdf_bytes": 114798,
+      "dxf_bytes": 60562
     },
     {
       "source": "SolidWorks\\parts\\MKH-005_j2_output_shaft.SLDPRT",
       "slddrw": "Drawings\\MKH-005_j2_output_shaft.SLDDRW",
       "pdf": "Drawings\\MKH-005_j2_output_shaft.PDF",
       "dxf": "Drawings\\MKH-005_j2_output_shaft.DXF",
-      "slddrw_bytes": 93216,
-      "pdf_bytes": 115187,
-      "dxf_bytes": 54998
+      "slddrw_bytes": 92050,
+      "pdf_bytes": 115188,
+      "dxf_bytes": 54996
     },
     {
       "source": "SolidWorks\\parts\\MKH-006_upper_arm_link.SLDPRT",
       "slddrw": "Drawings\\MKH-006_upper_arm_link.SLDDRW",
       "pdf": "Drawings\\MKH-006_upper_arm_link.PDF",
       "dxf": "Drawings\\MKH-006_upper_arm_link.DXF",
-      "slddrw_bytes": 98042,
-      "pdf_bytes": 115138,
+      "slddrw_bytes": 98833,
+      "pdf_bytes": 115135,
       "dxf_bytes": 60940
     },
     {
@@ -328,35 +366,35 @@
       "slddrw": "Drawings\\MKH-008_forearm_link.SLDDRW",
       "pdf": "Drawings\\MKH-008_forearm_link.PDF",
       "dxf": "Drawings\\MKH-008_forearm_link.DXF",
-      "slddrw_bytes": 98643,
-      "pdf_bytes": 115269,
-      "dxf_bytes": 60958
+      "slddrw_bytes": 97476,
+      "pdf_bytes": 115275,
+      "dxf_bytes": 60957
     },
     {
       "source": "SolidWorks\\parts\\MKH-011_wrist_flange.SLDPRT",
       "slddrw": "Drawings\\MKH-011_wrist_flange.SLDDRW",
       "pdf": "Drawings\\MKH-011_wrist_flange.PDF",
       "dxf": "Drawings\\MKH-011_wrist_flange.DXF",
-      "slddrw_bytes": 108896,
-      "pdf_bytes": 116777,
-      "dxf_bytes": 69465
+      "slddrw_bytes": 108227,
+      "pdf_bytes": 116776,
+      "dxf_bytes": 69466
     },
     {
       "source": "SolidWorks\\parts\\MKH-012_gripper_body.SLDPRT",
       "slddrw": "Drawings\\MKH-012_gripper_body.SLDDRW",
       "pdf": "Drawings\\MKH-012_gripper_body.PDF",
       "dxf": "Drawings\\MKH-012_gripper_body.DXF",
-      "slddrw_bytes": 94343,
-      "pdf_bytes": 114719,
-      "dxf_bytes": 59817
+      "slddrw_bytes": 94189,
+      "pdf_bytes": 114716,
+      "dxf_bytes": 59815
     },
     {
       "source": "SolidWorks\\parts\\MKH-013_heavy_finger.SLDPRT",
       "slddrw": "Drawings\\MKH-013_heavy_finger.SLDDRW",
       "pdf": "Drawings\\MKH-013_heavy_finger.PDF",
       "dxf": "Drawings\\MKH-013_heavy_finger.DXF",
-      "slddrw_bytes": 88951,
-      "pdf_bytes": 113241,
+      "slddrw_bytes": 89829,
+      "pdf_bytes": 113247,
       "dxf_bytes": 56736
     },
     {
@@ -364,9 +402,9 @@
       "slddrw": "Drawings\\MKH-000_main_assembly.SLDDRW",
       "pdf": "Drawings\\MKH-000_main_assembly.PDF",
       "dxf": "Drawings\\MKH-000_main_assembly.DXF",
-      "slddrw_bytes": 308696,
-      "pdf_bytes": 128081,
-      "dxf_bytes": 207778
+      "slddrw_bytes": 290347,
+      "pdf_bytes": 124377,
+      "dxf_bytes": 143249
     }
   ],
   "errors": [],

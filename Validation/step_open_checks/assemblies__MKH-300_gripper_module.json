@@ -1,10 +1,10 @@
 {
   "path": "STEP\\assemblies\\MKH-300_gripper_module.STEP",
-  "bytes": 214752,
+  "bytes": 214656,
   "status": "pass",
   "insert_error": 0,
   "component_name": "MKH-300_gripper_module.STEP-1",
   "open_method": "SolidWorks 3D Interconnect assembly insertion",
   "title": "装配体1",
-  "seconds": 6.238
+  "seconds": 5.623
 }
